@@ -13,7 +13,7 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "9.0"
   s.ios.deployment_target = '9.0'
 
-  s.source       = { :git => "https://github.com/hufkens/react-native-rate.git", :tag => "podspec" }
+  s.source       = { :git => "https://github.com/hufkens/react-native-rate.git", :tag => "pods" }
   s.source_files  = "ios/**/*.{h,m}"
 
   s.dependency 'React'
